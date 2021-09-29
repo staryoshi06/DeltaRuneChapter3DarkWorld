@@ -10,13 +10,3 @@ public:
 	std::string getType();
 	void setType(std::string newType);
 };
-
-Monster::Monster(std::string n, std::string s, std::string t) : Character(n, s), type(t) {}
-
-std::string Monster::getType() {
-	return type;
-}
-
-void Monster::setType(std::string newType) {
-	type = newType;
-}

@@ -14,24 +14,3 @@ public:
 	std::string getSprite();
 	void setSprite(std::string newSprite);
 };
-
-Character::Character(std::string n, std::string s) : name(n), sprite(s) {}
-
-void Character::sayDialogue(std::string dialogue) {
-	std::cout << name << ": * " << dialogue << std::endl;
-}
-
-std::string Character::getName() {
-	return name;
-}
-
-void Character::setName(std::string newName) {
-	name = newName;
-}
-
-std::string Character::getSprite() {
-	return sprite;
-}
-void Character::setSprite(std::string newSprite) {
-	sprite = newSprite;
-}
