@@ -25,6 +25,7 @@
     <ClInclude Include="Monster.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Kris.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
