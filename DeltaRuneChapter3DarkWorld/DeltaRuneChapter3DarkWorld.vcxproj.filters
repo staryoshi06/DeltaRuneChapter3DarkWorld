@@ -35,5 +35,11 @@
     <ClCompile Include="Kris.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Susie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="definitions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

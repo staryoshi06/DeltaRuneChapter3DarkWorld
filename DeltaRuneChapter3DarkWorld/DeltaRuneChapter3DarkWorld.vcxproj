@@ -25,8 +25,10 @@
     <ClInclude Include="Monster.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="definitions.cpp" />
     <ClCompile Include="Kris.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Susie.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
